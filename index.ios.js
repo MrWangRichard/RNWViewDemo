@@ -31,16 +31,16 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     backgroundColor: '#F5FCFF',
   },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
+  base:{
+    position:'absolute',
+    width:100,
+    height:100,
+    backgroundColor:'green'
   },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
-  },
+  smallView1:{
+    left:20,
+    top:20
+  }
 });
 
 AppRegistry.registerComponent('WViewDemo', () => WViewDemo);
